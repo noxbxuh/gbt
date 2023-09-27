@@ -1,36 +1,17 @@
 {
-    "name": "بوت GpT",
-    "logo": "https://telegra.ph/file/f38fb2d1a10bf2d4531cb.jpg",
-    "description": "اهلا بك في تنصيب بوتChaT GpT",
+    "name": "واتقو الله لعلكم ترحمون",
+    "stack": "container",
     "keywords": [
-        "telegram",
-        "bot",
-        "heroku",
-        "app.json",
-        "app",
-        "json",
-        "maker",
-        "generator"
+        "python",
+        "chatbot",
+        "telegrambot"
     ],
-    "repository": "https://github.com/SS7SS/Turbo-bot",
-    "website": "https://t.me/xx_YaBh",
-    "success_url": "https://t.me/xx_YaBh",
     "env": {
-
-        "token": {
-            "description": "ضع التوكن الخاص بك هنا"
-        }
-    },
-    "stack": "heroku-20",
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "eco"
+        
+        "teleson": {
+            "description": "سيشن تيليثون او تيرمكس",
+            "value": "",
+            "required": true
         }
     }
 }
