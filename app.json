@@ -1,0 +1,36 @@
+{
+    "name": "gpt",
+    "logo": "https://t.me/aBoOdYaBa/2",
+    "description": "اهلا بك في تنصيب بوت,"
+    "keywords": [
+        "telegram",
+        "bot",
+        "heroku",
+        "app.json",
+        "app",
+        "json",
+        "maker",
+        "generator"
+    ],
+    "repository": "https://github.com/SS7SS/Turbo-bot",
+    "website": "https://t.me/xx_YaBh",
+    "success_url": "https://t.me/xx_YaBh",
+    "env": {
+
+        "token": {
+            "description": "ضع التوكن الخاص بك هنا"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
