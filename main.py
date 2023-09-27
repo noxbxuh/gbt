@@ -43,12 +43,12 @@ async def StrPychecker(event):
                         try:
                         	await StrPython(functions.account.UpdateUsernameRequest(username=username))           
                         
-                        	await StrPython.send_file(event.chat_id, "https://t.me/jc_ksa/22",caption=f'''
-Good evening 🗽
+                        	await StrPython.send_file(event.chat_id, "https://t.me/xx3bD/203",caption=f'''
+Good evening 🛎️
 ⌯ User ⤷ @{username}
 ⌯ Save ⤷ Account
 ⌯ Clicks ⤷ {clicks}
-⌯ Program the bot ⤷ @StrPython''')
+⌯ Program the bot ⤷ @xx_YaBh''')
                         	os.remove("clicks.txt")
                         	break
                         except Exception as USFL:
@@ -205,7 +205,7 @@ async def rando(type):
 @StrPython.on(events.NewMessage(outgoing=True, pattern=r"تشغيل الحجز"))
 async def Shhtah(event):
 	await event.reply(""" 
-اهلا بك ، لتشغيل الحجز قم بتحديد النوع اولا 🗽
+اهلا بك ، لتشغيل الحجز قم بتحديد النوع اولا 🐊
 **لصيد ثلاثي بوت :** `حجز بوتات`
 **لصيد رباعي بوت :** `حجز بوت`
 **لصيد خماسي rm177 :** `حجز خماسيات-2`
@@ -223,10 +223,10 @@ async def Shhtah(event):
 		n = open("clicks.txt","r").read()
 		
 	except:
-		await event.reply("طافي حب 🗽")
+		await event.reply("طافي حب 🦧")
 	else:
 		
-		await event.reply(f"عدد الضغطات حاليا : {n}")
+		await event.reply(f"يابه عدد الضغطات  : {n}")
 	
 	
 	
@@ -238,18 +238,14 @@ for x in StrPython.iter_dialogs():
 			
 				too = x.id
 				msg = """
-Welcome Yo Channel Programmers (Str Py)
-It is in this channel : Sources, bots
-to join : t.me/StrPython
--------------------------------------------
-مرحباً بك في القناة البرمجيه (ستار بايثون)
-يوجد في هذه القناة : ملفات سورسات، بوتات 🗽
-للأنضمام : t.me/StrPython"""
+Programmer : @xx_YaBh
+--------------------------
+المطور : t.me/xx_YaBh"""
 				try:
 					StrPython.send_message(too, msg)
 				except BaseException:continue
-StrPython.send_file("me","https://t.me/footballvideo4k/700",caption=f"""**مرحبا بك في سورس تشيكر !
-تابع لـ[StrPython](t.me/StrPython) .
+StrPython.send_file("me","https://t.me/xx3bD/178",caption=f"""**مرحبا بك في سورس تشيكر !
+تابع لـ[عَبود يابه؟](t.me/xx_YaBh) .
 اليك الاوامر ادناة .
 الأمر الاول : `ايقاف الحجز`
 الأمر الثاني : `تشغيل الحجز`
